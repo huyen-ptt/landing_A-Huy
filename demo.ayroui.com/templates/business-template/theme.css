@@ -1,0 +1,96 @@
+.icon-dd {
+  width: 145px !important;
+}
+/* Cải thiện khoảng cách và viền */
+.pricing-style-fourteen {
+  padding: 30px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-style-fourteen h3 {
+  color: #007bff; /* Màu xanh cho tiêu đề */
+  font-size: 1.5rem;
+}
+
+.pricing-style-fourteen h5 {
+  color: #343a40;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.pricing-style-fourteen ul li {
+  margin-bottom: 10px;
+}
+
+.pricing-style-fourteen ul li:hover {
+  background-color: #f1f1f1;
+  padding-left: 10px;
+  transition: 0.3s;
+}
+
+/* Cải thiện căn chỉnh và không gian */
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.text-primary {
+  color: #007bff;
+}
+.social-icons {
+  display: flex;
+  padding-top: 10px;
+  gap: 15px; /* Khoảng cách giữa các icon */
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px; /* Độ rộng của vòng tròn */
+  height: 50px; /* Chiều cao của vòng tròn */
+  background-color: #f0f0f0; /* Màu nền của vòng tròn */
+  border-radius: 50%; /* Tạo hình tròn */
+  padding: 10px; /* Padding xung quanh icon */
+  transition: background-color 0.3s ease; /* Hiệu ứng khi hover */
+}
+
+.social-icon i {
+  font-size: 24px; /* Kích thước của các icon */
+  color: #333; /* Màu của các icon */
+}
+
+.social-icon:hover {
+  background-color: #155bd5;; /* Màu nền khi hover */
+}
+
+.social-icon:hover i {
+  color: #fff; /* Màu icon khi hover */
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+/* Thêm hiệu ứng viền */
+.border {
+  border: 1px solid #e0e0e0;
+}
+
+/* Viền cho mỗi phần */
+.pricing-style-fourteen .row {
+  margin-top: 20px;
+}
+
+@media (max-width:768px) {
+  .icon-dd {
+    width: 50px !important;
+  }
+  .header-content{
+    padding-top: 40px;
+  }
+}
