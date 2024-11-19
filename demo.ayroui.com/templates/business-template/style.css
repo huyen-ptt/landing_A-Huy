@@ -1198,7 +1198,6 @@ p {
   width: 84px;
   height: 84px;
   border-radius: 35%;
-  margin-bottom: 25px;
   background: var(--white);
   border: 2px solid var(--primary);
   display: flex;
