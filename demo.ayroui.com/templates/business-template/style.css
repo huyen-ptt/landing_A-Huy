@@ -2148,8 +2148,13 @@ p {
   position: relative;
   z-index: 3;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 175px;
 
+}
+.list-unstyled li{
+  list-style-type: disc;
+  text-align: start;
+  height: 48px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact-section {
@@ -2190,6 +2195,9 @@ p {
 @media (max-width: 767px) {
   .contact-section .contact-item-wrapper .contact-item {
     flex-direction: column;
+  }
+  .services-eight .single-services {
+    height: 400px;
   }
 }
 .contact-section .contact-item-wrapper .contact-item .contact-icon {

@@ -1,6 +1,6 @@
-.icon-dd {
+/* .icon-dd {
   width: 145px !important;
-}
+} */
 /* Cải thiện khoảng cách và viền */
 .pricing-style-fourteen {
   padding: 30px;
@@ -24,7 +24,7 @@
 }
 
 .pricing-style-fourteen ul li:hover {
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
   padding-left: 10px;
   transition: 0.3s;
 }
@@ -87,9 +87,9 @@
 }
 
 @media (max-width:768px) {
-  .icon-dd {
+  /* .icon-dd {
     width: 50px !important;
-  }
+  } */
   .header-content{
     padding-top: 40px;
   }
